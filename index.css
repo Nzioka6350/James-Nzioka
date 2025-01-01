@@ -63,7 +63,8 @@ li,a,button{
 #right-hero{
     margin: auto;
 }
-.left-hero img {
-
-    
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
