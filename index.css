@@ -6,6 +6,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+section {
+    min-height: 100vh; /* Ensure all sections cover full screen */
+}
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #fcf8f7;
     font-family: "Roboto", serif;
@@ -49,5 +56,14 @@ li,a,button{
 #hero{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#right-hero{
+    margin: auto;
+}
+.left-hero img {
+
     
 }
