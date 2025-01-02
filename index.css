@@ -56,7 +56,7 @@ header{
 }
 .navbar li a{
     transition: all 0.3 ease 0s;
-    color: black;
+    color: var(--color-black);
 }
 .navbar li a:hover{
     color: #0088e9;
@@ -102,6 +102,6 @@ li,a,button{
     flex-direction: row;
     justify-content: space-between;
    margin: 0px auto;
-   background-color: var(--color-white);
+   background-color: var(--color-black);
    align-items: center;
 }
