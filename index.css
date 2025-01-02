@@ -68,3 +68,13 @@ li,a,button{
     flex-direction: row;
     justify-content: space-between;
 }
+.ProjectCard{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: burlywood;
+
+}
