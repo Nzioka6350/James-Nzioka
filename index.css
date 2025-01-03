@@ -23,6 +23,7 @@
 }
 section {
     min-height: 100vh; /* Ensure all sections cover full screen */
+    padding-top: 80px;
 }
 /* Smooth scrolling */
 html {
